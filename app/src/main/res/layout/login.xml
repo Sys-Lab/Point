@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:layout_gravity="center">
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="60sp"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_height="45dp"
+            android:layout_width="30dp"
+android:background="@drawable/two"
+            android:textSize="25sp"
+
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/accountLogin"
+            android:layout_height="wrap_content"
+            android:hint= "用户名  "
+            android:textSize="15sp"
+            android:gravity="center"
+
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+android:background="@drawable/one"
+            android:textSize="25sp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="密码  "
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"/>
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#148372"
+            android:text="登录"
+            android:textSize="20sp"
+            android:textColor="#cccccc"
+            />
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:textSize="50sp"/>
+        </TableRow>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/register"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#148372"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="#cccccc"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableRow>
+
+</TableLayout>
